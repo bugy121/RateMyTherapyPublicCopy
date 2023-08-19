@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px) {
+    .largeContact {
+        display: none !important;
+    }
+    .contactDescription {
+        width: 85% !important;
+    }
+}
+@media screen and (min-width: 800px) {
+    .mobileContact {
+        display: none !important;
+    }
+}
+.contactIcon {
+    margin-right: 10px;
+    color: white;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,175 @@
+@media screen and (max-width: 800px) {
+    .singleListing {
+        flex-direction: column !important;
+        align-items: center !important;
+        font-size: 20px !important;
+        width: 94% !important;
+    }
+    .labels {
+        display: none !important;
+    }
+    .buttons {
+        justify-content: center !important;;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .searchInputContainer {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .lowerSearchInputs {
+        margin-top: 15px !important;
+        margin-left: 0px !important;
+    }
+    .title {
+        font-size: 45px !important;
+    }
+    .description {
+        font-size: 20px !important;
+        width: 90% !important;
+    }
+    .horizLineTop {
+        width: 92vw !important;
+    }
+    .infoContainer {
+        width: 95% !important;
+    }
+    .leaveReviewFilters {
+        /* position: absolute;
+        top: 0px;
+        left: -70px; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .infoButton {
+        display: none;
+    }
+    .leaveReviewFilters {
+        /* position: absolute;
+        top: 0px;
+        right: 00px; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+.selectWidth {
+    width: 110px
+}
+
+.applyFilters {
+    border: 1px solid #0070f3
+}
+.options {
+    width: 115px !important;
+}
+.applyFilters:hover {
+    background-color: white;
+    border: 1px solid #0070f3;
+    color: #0070f3
+}
+.clearFilters {
+    border: 1px solid #eb4034
+}
+.funnelContainer:hover {
+    color: #eb4034;
+    background-color: white !important;
+}
+.funnelIcon {
+    margin-bottom: 4px;
+    margin-left: 3px;
+}
+.link:hover {
+    color: black;
+}
+.clearFilters:hover {
+    background-color: white;
+    border: 1px solid #eb4034;
+    color: #eb4034;
+}
+.locationInput {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #edd9d8;
+    width: 98%;
+}
+.moneyInputs {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #edd9d8;
+    width: 90px;
+}
+.infoButton {
+    top: 30vh;
+}
+.labelsInfoBox {
+    border: 3px solid white;
+}
+.infoCircleIcon {
+    margin-bottom: 10px;
+}
+.search {
+    background-color: white;
+    border: 0px solid white;
+    width: 250px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}
+.search::-webkit-search-cancel-button{
+    position:relative;
+    right:6px;   
+    color: black; 
+    background: black;
+}
+.searchButton:hover {
+    color: #23C9FF;
+    background-color: white;
+    font-weight: 900;
+}
+.searchIcon {
+    margin-left: 3px;
+}
+.caret {
+    font-size: 50px;
+    background-color: #C33C54;
+    color: white;
+    margin: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+.caret:hover {
+    background-color: white;
+    color: #C33C54
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.recruiterButton {
+    background-color: #efe6bb;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.recruiterButton {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .recruiterButton:hover, .recruiterButton:focus, .recruiterButton:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }

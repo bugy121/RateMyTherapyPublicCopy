@@ -1,0 +1,33 @@
+.signUpPopupContainer {
+    position: fixed;
+    top: 10vh;
+    right: 10vw;
+    z-index: 999;
+    border-radius: 7px;
+    border: 0px;
+}
+.signupInput{
+    width: 70%;
+    background-color: #D9D9D9;
+    border: 0px;
+}
+input {
+    background-color: #D9D9D9;
+    border: 0px;
+}
+.registerButton {
+    border-radius: 4px;
+    font-weight: 300;
+}
+.signupExit {
+    position: absolute;
+    top: 1vh;
+    right: 2vh;
+    font-weight: 100;
+}
+.signupTop {
+    font-weight: 250;
+}
+.inputsContainer {
+    font-weight: 100;
+}

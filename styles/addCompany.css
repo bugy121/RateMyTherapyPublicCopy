@@ -1,0 +1,91 @@
+@media screen and (max-width: 800px) {
+    .addCompanyTitle {
+        font-size: 45px !important;
+        margin-top: 35px !important;
+        margin-bottom: 25px !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .addCompanyFormContainer {
+        width: 80% !important;
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .menuListOuterAddCompany {
+        width: 80vw;
+    }
+}
+.addCompanyTitle {
+}
+.addCompanyInput {
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #edd9d8;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+.addCompanyInput2 {
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #edd9d8;
+    border-radius: 5px;
+    margin: 10px 0px 10px 10px;
+}
+.addCompanyInput3 {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #edd9d8;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+.addCompanyInput4 {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #edd9d8;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+.submitCompanyButton {
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 10px
+}
+.submitCompanyButton:hover {
+    background-color: white;
+    color: #23C9FF;
+    border: 1px solid #0070f3
+}
+.menuOption {
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border: 1px solid #998d8d;
+    font-size: 17px;
+    font-weight: 600;
+    width: 200px
+}
+.menuOption:hover {
+    background-color: #998d8d;
+}
+.specialties:hover {
+    background-color: #D3D3D3;
+    color: black;
+}
+.plusSquareFill {
+    margin-bottom: 10px;
+}
+.addMoreLocationsButton:hover {
+    color: blue;
+}
+.deleteLocationsButton:hover {
+    color: orange;
+}
+.dashSquareFill {
+    margin-bottom: 10px;
+}

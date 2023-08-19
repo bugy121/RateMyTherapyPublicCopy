@@ -1,0 +1,22 @@
+.loginPopup {
+    position: fixed;
+    top: 10vh;
+    right: 10vw;
+    z-index: 999;
+    border-radius: 7px
+}
+.loginExit {
+    position: absolute;
+    top: 0vh;
+    right: 0vh;
+}
+.loginInputsContainer {
+    font-weight: 100
+}
+.loginButton {
+    border-radius: 3px;
+    border: 0;
+}
+.loginInput {
+    width: 100%
+}

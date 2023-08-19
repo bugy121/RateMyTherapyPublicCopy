@@ -1,0 +1,92 @@
+@media screen and (max-width: 950px) {
+    .mainInfoBoxLarge {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 950px) {
+    .mainInfoBoxSmall {
+        display: none !important;
+    }
+}
+.mainInfoBoxSmall {
+    position: relative !important;
+    z-index: 100 !important;
+}
+.navShadow {
+    position: relative;
+    z-index: 999;
+    background: linear-gradient(
+        black 20%,
+        #152f46
+    )
+}
+.navv {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    z-index: 2;
+    position: fixed;
+    top: 0vh;
+}
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.navImageContainer {
+    position: relative;
+    z-index: 999;
+}
+.navImage {
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.centerNavInfo {
+   
+}
+.contact {
+    z-index: 999
+}
+.loginSignUpButtons {
+    
+}
+.navLoginButton {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #f0e7bb;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.navSignupButton {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #f0e7bb;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.navSignupButton:hover,.navLoginButton:hover {
+    background-color: #23C9FF;
+    color: white;
+}
+.noTextDecor {
+    text-decoration: none !important;
+}
+.navMenuItem {
+    border: 0px solid #ccbaba;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-radius: 2px;
+    background-color: #3f6075;
+}
+.navMenuItem:hover {
+    background-color: white;
+    color: #3f6075 !important;
+}
+

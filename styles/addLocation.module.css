@@ -1,0 +1,24 @@
+.formContainer {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.titleContainer {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #edd9d8;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.addLocationButton {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.addLocationButton:hover {
+    color: #0070f3;
+    background-color: white;
+    border: 2px solid #0070f3;
+}

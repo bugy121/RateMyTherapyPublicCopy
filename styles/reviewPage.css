@@ -1,0 +1,316 @@
+@media screen and (max-width: 1200px) {
+    .GMAP {
+        display: none;
+        z-index: 1
+    }
+}
+@media screen and (min-width: 1200px) {
+    .mapIcon {
+        display: none !important;
+    }
+    .filterMenuOuterContainer {
+        display: none !important;
+    }
+}
+.smallGMAP {
+    z-index: 0 !important;
+}
+.zeroZIndex {
+    z-index: 1;
+}
+@media screen and (max-width: 750px) {
+    .searchInputs {
+        flex-direction: column !important;
+        margin-top: 30px !important;
+    }
+    .reviewPageButtonsContainer {
+        margin-top: 6px;
+    }
+    .reviewPageInput {
+        margin-bottom: 10px !important;
+        width: 90% !important;
+    }
+    .reviewPageTitle {
+        font-size: 33px !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .numResults {
+        display: flex !important;
+    }
+}
+@media screen and (min-width: 750px) {
+    .numResults {
+        display: none !important;
+    }
+    .reviewPageHorizMobile {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .filterContainer {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1250px) {
+    .filterPopupButton {
+        display: none !important;
+    }
+}
+
+.filterPopupButton:hover {
+    background-color: white;
+    color: #23C9FF
+}
+.innerFilterContainer {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.coolBoxShadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+.filterContainer {
+    z-index: 1 !important;
+}
+
+.expandButton {
+    position: absolute;
+    top: 12%;
+    right: 10px;
+}
+.expandButton:hover {
+    background-color: black
+}
+.reviewPageTitle {
+    font-weight: 800;
+}
+.reviewPageInput {
+    background-color: white;
+    border: 1px solid #edd9d8;
+    border-radius: 5px;
+    margin: 0px 6px 0px 6px;
+    padding: 4px 0px 4px 5px;
+    height: 37px;
+    font-size: 17px;
+}
+.reviewSearchButton {
+    border-radius: 4px;
+    
+}
+.reviewSearchButton:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.filterContainer {
+    top: 75px;
+    z-index: 2;
+    position: sticky;
+}
+.filterTitle {
+    font-family: Arial;
+    font-weight: 600;
+}
+.checkBox {
+    z-index: 999;
+}
+.coolCheckBox {
+    border-width: 0px;
+    height: 20px;
+    width: 20px;
+    margin-top: 4px;
+}
+.reviewPageTitle {
+    font-family: Arial;
+}
+.searchInputs {
+    top: 10vh;
+    z-index: 2;
+}
+.checkBox {
+    height: 20px;
+    width: 20px;
+    border-width: 0px
+}
+.checkContainer {
+   font-weight: 700;
+}
+.filterTextInput {
+    width: 80%;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #edd9d8;
+    border-radius: 5px;
+}
+.GMAP {
+    position: sticky;
+    top: 19vh;
+}
+.searchButtonThing {
+    margin-bottom: 3px;
+}
+.funnelIcon2 {
+    font-weight: 900;
+    font-size: 22px;
+    margin-left: 2px;
+    z-index: 1;
+}
+.closeIcon {
+    margin-bottom: 2px;
+    font-size: 25px;
+}
+.searchClose {
+    margin-bottom: 12px;
+}
+.funnelForPopup {
+    margin-bottom: 12px;
+}
+.searchButton:hover {
+    background-color: white;
+    color: #23C9FF;
+}
+.closeSearchButton:hover {
+    background-color: white;
+    color: #C33C54;
+}
+.applyFiltersButton:hover {
+    background-color: white;
+    color: #23C9FF;
+}
+.closeFiltersButton:hover {
+    background-color: white;
+    color: #C33C54;
+}
+.closeFiltersButton {
+}
+.spacerReviewPage {
+    background-color: #152f46;
+    z-index: 9999 !important;
+}
+.menuOptionFilter {
+    border: 0px solid black !important;
+    font-size: 17px !important;
+    font-weight: 400;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    margin: 0px;
+    border-top: 1px solid #D3D3D3 !important;
+    border-bottom: 1px solid #D3D3D3 !important;
+
+}
+.outerMenu {
+}
+.filterMenuList {
+    z-index: 2;
+    border: 2px solid #D3D3D3 !important;
+    border-radius: 10px;
+}
+.filterMenuOuterContainer {
+    z-index: 1 !important;
+    
+}
+.menuOptionFilterOuterContainer {
+    border: 0px solid black !important;
+}
+.reviewPageInput::-webkit-search-cancel-button{
+    position:relative;
+    right:6px;   
+    color: black; 
+    background: black;
+}
+.loadScriptTag {
+    margin-top: -10px;
+}
+.relative {
+    position: relative;
+}
+.searchingCompaniesSpinner {
+    margin-top: 5px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: white;
+}
+.checkBoxContainer {
+
+}
+.styledCheckBox {
+
+}
+.styledCheckmark {
+
+}
+
+/* Following CSS copied from:
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox
+*/
+.checkBoxContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .checkBoxContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .styledCheckmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    border-radius: 3px;
+    width: 20px;
+    margin-top: 4px;
+    background-color: #eee;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkBoxContainer:hover input ~ .styledCheckmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkBoxContainer input:checked ~ .styledCheckmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .styledCheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkBoxContainer input:checked ~ .styledCheckmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkBoxContainer .styledCheckmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

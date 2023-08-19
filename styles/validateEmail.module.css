@@ -1,0 +1,15 @@
+.spinner {
+    margin-left: 10px;
+}
+.checkCircle {
+    color: #23DC3D;
+    font-size: 25px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+}
+.XCircle {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+}

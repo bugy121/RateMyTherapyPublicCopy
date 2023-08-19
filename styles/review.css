@@ -1,0 +1,239 @@
+@media screen and (max-width: 800px) {
+    .titleContainer {
+        flex-direction: column !important;
+    }
+    .starContainer {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .noReviewsYet {
+        width: 90% !important;
+    }
+    .outerTitleContainer {
+        padding-left: 10px !important;
+        flex-direction: column !important;
+    }
+    .starsList {
+        align-self: center !important;
+        margin-left: -45px !important;
+    }
+    .statTitle {
+        display: none !important;
+    }
+    .writeReviewButton {
+        margin-left: 0px !important;
+    }
+    .reviewList {
+        width: 100vw !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .reviewCompTitle {
+        font-size: 33px !important;
+        margin-right: 20px !important;
+    }
+    .reviewStatsOuterContainer {
+        position: static !important;
+        align-self: center !important;
+        margin-left: 0px !important;
+    }
+    .specialtiesContainer {
+        justify-content: center !important;
+        margin-right: 30px !important;
+    }
+    .numReviewsLabel {
+        text-align: center !important;
+        margin-left: -50px !important;
+    }
+    .reviewCompTitle {
+        width: 95% !important;
+        text-align: center !important;
+    }
+    .filterButtonLeaveReview {
+        position: static !important;
+    }
+    .reviewImageTop {
+        align-self: center !important;
+    }
+}
+.moreInfoClickable:hover {
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 1000px) {
+    .buttonsSpacer {
+        width: 10px !important;
+    }
+    .statTitle {
+        display: none !important;
+    }
+}
+.outerTitleContainer {
+    position: relative;
+}
+.imageContainer {
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+}
+.companyInfoItem {
+    margin-left: 8%;
+    font-weight: 600;
+    font-size: 18px;
+    width: 90%;
+}
+.reviewTitle {
+    text-align: center;
+}
+.reviewButton {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.reviewCard {
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    z-index: 999;
+}
+.basicBoxShadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.noReviewsYet {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 10%
+}
+.reviewImage {
+    margin: 0px 2px 0px 2px
+}
+.pinFill {
+    margin-right: 30px;
+}
+.windowIcon {
+    margin-right: 32px;
+}
+.reviewStatsContainer {
+    direction: rtl;
+}
+.reviewStatsOuterContainer {
+    position: absolute;
+    right: 20px;
+    top: 7%;
+}
+.reviewButtonsContainer {
+    position: sticky;
+    z-index: 99 !important;
+    top: 8vh;
+}
+.writeReviewButton:hover {
+    color: #C33C54;
+    background-color: white;
+}
+.shareSaveButtons:hover {
+    color: #23C9FF;
+    background-color: white;
+}
+@media screen and (max-width: 1000) {
+    .reviewList {
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 800px) {
+    .reviewList {
+        margin-left: 38px !important;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .mainCompanyInfo {
+        display: none !important  
+    }
+    .reviewButtonsContainer {
+        position: static !important;
+        justify-content: center !important;
+        margin-left: 0px !important;
+    }
+    .reviewBottomHalfContainer {
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1350px) {
+    .mainCompanyInfo {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        position: sticky;
+        top: 16vh;
+        background-color: white;
+    }
+    .moreInfoButton {
+        display: none !important;
+    }
+}
+
+/* Following css is for the dropdown that appears for the reviewButtons on mobile*/
+@media screen and (min-width: 700px) {
+    .reviewButtonsDropdown {
+        display: none !important
+    }
+}
+@media screen and (max-width: 700px) {
+    .none750 {
+        display: none !important;
+    }
+    .writeReviewButton {
+        margin-right: 8px !important;
+    }
+}
+
+
+
+
+.mainCompanyInfo2 {
+    background-color: white;
+    position: fixed !important;
+    top: 25vh;
+    border: 3px solid black;
+    position: realtive;
+}
+.mainCompanyInfo2CloseButton {
+    position: absolute;
+    top: 2px; 
+    right: 15px;
+    font-size: 23px;
+}
+
+.filterButtonLeaveReview {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.companyInfoLink {
+    color: black;
+    text-decoration: none;
+}
+.reviewDropdown {
+    position: relative !important;
+    z-index: 50!important;
+}
+.reviewPlusSquare {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 40px;
+}
+.plusOuterReview:hover {
+    background-color: white;
+    color: #23C9FF !important;
+}
+.reviewFilterIcon {
+    margin-bottom: 13px;
+}
+.reviewFilterIconOuter:hover {
+    color: #C33C54;
+    background-color: white;
+}

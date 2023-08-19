@@ -1,0 +1,39 @@
+@media screen and (max-width: 900px) {
+    .pic {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 550px) {
+    .outerContainer {
+        width: 290px !important;
+        margin-left: 30px !important;
+    }
+    .reviewBoxName {
+        font-size: 22px !important;
+        font-weight: 900 !important;
+
+        margin-right: 40px !important;
+        width: 93%;
+    }
+    .card {
+        width: 94vw; 
+        margin-bottom: 0px;
+        margin-top: -10px;
+    }
+}
+.card {
+    border: 0px solid black !important;
+    box-shadow: #152f46 0px 5px 15px;
+    font-weight: 300;
+}
+.reviewCardStar {
+    margin: 2px;
+}
+.reviewBoxName {
+}
+.reviewAddress {
+}
+.reviewPageCardButton {
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

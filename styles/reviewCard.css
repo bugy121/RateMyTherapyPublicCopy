@@ -1,0 +1,100 @@
+@media screen and (max-width: 1000px) {
+    .statLabel {
+        display: none !important;
+    }
+    .topHalfContainer {
+        flex-direction: column;
+    }
+    .reviewCardUserName {
+        text-align: center;
+    }
+    .bottomHalfContainer {
+        flex-direction: column !important;
+        margin-left: -120px !important;
+    }
+    .writtenReviewSection {
+        margin-left: 130px !important;
+        margin-top: 20px !important;
+        width: 60% !important;
+    }
+    .cardddContainer {
+        width: 90vw !important;
+        position: static !important;
+        align-self: center !important;
+    }
+    .reviewStats {
+        margin-left: 140px !important;
+    }
+    .starContainerCard {
+        position: static !important;
+    }
+    .statsContainer {
+        justify-content: center !important;
+        margin-left: -5px;
+    }
+    .writtenReviewOuter {
+        margin: auto !important;
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1350px) and (min-width: 1000px) {
+    .cardddContainer {
+        width: 950px !important;
+    }
+}
+.chevronIcon:hover {
+    font-size: 55px !important;
+}
+.cardddContainer {
+    margin: 10px, 0px, 10px, 0px;
+    border-collapse: separate; 
+    border-radius: 10px;
+    width: 65vw;
+    position: relative;
+}
+.statLabelContainer {
+    direction: rtl;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card {
+    font-family: Arial
+}
+.statLabel {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 23px;
+}
+.reviewCardUserName {
+
+}
+.lowLineHeight {
+    line-height: 32px;
+}
+.reviewCardVL {
+    border-left: 1px solid #D9D9D9
+}
+.reviewCardHoriz {
+    border-top: 1px solid #D9D9D9
+}
+.reviewCardWrittenReview {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.starContainerCard {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+.reviewCardProfilePic {
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.reviewCardClock {
+    font-size: 17px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}

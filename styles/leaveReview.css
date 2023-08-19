@@ -1,0 +1,173 @@
+
+@media screen and (max-width: 1250px) {
+    .outerLeaveReviewContainerM {
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding-left: 20px !important;
+    }
+    .anonymousCheckBoxOuterContainer {
+        margin-left: -14px !important;
+        justify-content: center;
+    }
+    .outerLeaveReviewContainerM {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .leaveReviewLocationLarge {
+        display: none !important;
+    }
+    .boxRatingM {
+        width: 30px !important;
+    }
+    .titlesContainerM {
+        margin-left: -90px !important;
+    }
+    .leaveReviewHorizLineM {
+        margin-left: -20px !important;
+    }
+    .postReviewButtonM {
+        display: none !important;
+    }
+    .reviewStatsOuterContainerM {
+        margin-top: 20px !important;
+    }
+    .leaveReviewCompanyName {
+        font-size: 40px !important;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1250px) {
+    .leaveReviewLocationSmall {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1250px) {
+    .alternatePostButtonM {
+        display: none !important;
+    }
+    .leaveReviewCompanyName {
+        width: 700px;
+    }
+}
+@media screen and (min-width: 700px) {
+    .firstPartLeaveReview {
+        width: 650px !important;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .firstPartLeaveReview {
+        width: 90vw !important;
+        margin-left: -20px !important;
+        margin-right: 0px !important;
+    }
+    .reviewStatsOuterContainerM {
+        width: 90vw !important;
+    }
+}
+.boxRatingM {
+    border-width: 0px;
+}
+.reviewInfoM {
+    font-size: 20px;
+    font-weight: 250;
+}
+.postReviewButtonM:hover {
+    background-color: #fc5a03
+}
+textarea {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    outline: none;
+}
+.leaveReviewIconsM {
+    margin: 40px, 0px, 0px, 10px
+}
+.ratingLabelM {
+    
+}
+.titlesContainerM {
+    direction: rtl
+}
+.geoAltFill {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+/* Following CSS copied from:
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox
+*/
+.checkBoxContainer2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .checkBoxContainer2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .styledCheckmark2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    border-radius: 3px;
+    width: 25px;
+    margin-top: 4px;
+    background-color: #eee;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkBoxContainer2:hover input ~ .styledCheckmark2 {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkBoxContainer2 input:checked ~ .styledCheckmark2 {
+    background-color: green
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .styledCheckmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkBoxContainer2 input:checked ~ .styledCheckmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkBoxContainer2 .styledCheckmark2:after2 {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+

@@ -1,0 +1,142 @@
+.homePageOuter {
+    height: 100% !important;
+    overflow: auto !important;
+}
+@media screen and (min-width: 800px) {
+    .bottomHalfSmall {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 800px) {
+    .bottomHalf {
+        display: none !important;
+    }
+    .imageContainer {
+        display: none !important;
+    }
+    .mainTitle {
+        font-size: 45px !important;
+        margin-top: 7px !important;
+        margin-left: 4px !important;
+        margin-right: 4px !important;
+    }
+    .mainTitle2 {
+        font-size: 22px !important;
+        width: 80%;
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .title1 {
+        font-size: 35px !important;
+        font-weight: 900 !important;
+    }
+
+    .moreLabel {
+        margin-top: 60px;
+        font-size: 22px !important;
+    }
+    .topSpacer {
+        height: 70px !important;
+    }
+    .getStarted {
+        margin-left: -5px !important;
+    }
+}
+.blueFont {
+    color: blue;
+}
+.big {
+    font-size: 100;
+}
+.imageContainer {
+    position: relative;
+    border: 0px !important;
+    box-shadow: none;
+    z-index: 0;
+    margin: auto;
+}
+.logo {
+    position: relative;
+}
+.getStarted {
+    font-family: Arial;
+    display: inline;
+    background-color: #f0e7bb;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    z-index: 1;
+    font-size: 25px;
+    border-radius: 14px;
+    font-weight: 700;
+    position: relative;
+    border: 0px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.getStarted:hover {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.therapyImagesContainer {
+    position: relative;
+    bottom: 60px;
+}
+.moreLabel {
+    font-family: Arial;
+    font-weight: 500;
+    color: #f0e7bb
+}
+.shrink-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .shrink-on-hover:hover, .shrink-on-hover:focus, .shrink-on-hover:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  .moreInfo {
+    z-index: 999;
+    font-family: Arial
+  }
+.bold1 {
+    font-weight: 100
+}
+.bold2 {
+    font-weight: 900;
+  }
+.title1 {
+    font-weight: 900;
+}
+.descr1 {
+    font-weight: 100;
+    line-height: 35px;
+}
+.bottomTherapyPic {
+    border-radius: 10px;
+}
+.bottomHalf {
+    position: relative;
+    z-index: 1;
+}
+.getStartedLink {
+    text-decoration: none;
+    color: black;
+}
+.getStartedLink:hover {
+    color: black;
+}
+.root2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+  }
